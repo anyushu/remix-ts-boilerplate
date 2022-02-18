@@ -50,7 +50,6 @@
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}'",
     "lint": "eslint \"src/**/*.ts?(x)\" --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint --fix \"src/**/*.ts?(x)\" --ext .js,.jsx,.ts,.tsx",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "prepare": "husky install"
   }
 }
