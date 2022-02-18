@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "remix-app-template",
+  "name": "remix-typescript-boilerplate",
   "description": "",
-  "license": "",
+  "license": "MIT",
   "dependencies": {
     "@remix-run/react": "^1.2.1",
     "@remix-run/vercel": "^1.2.1",
