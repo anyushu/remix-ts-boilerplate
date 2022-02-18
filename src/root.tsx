@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
   return { title: 'New Remix App' }
 }
 
-const App = () => {
+const App: array = () => {
   return (
     <html lang="en">
       <head>
