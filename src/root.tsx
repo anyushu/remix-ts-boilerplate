@@ -1,5 +1,5 @@
-import { Meta, Links, Outlet, ScrollRestoration, Scripts, LiveReload } from '@remix-run/react'
-import type { MetaFunction } from '@remix-run/react/routeModules'
+import { Meta, Links, Outlet, ScrollRestoration, Scripts, LiveReload } from 'remix'
+import type { MetaFunction } from 'remix'
 
 export const meta: MetaFunction = () => {
   return { title: 'New Remix App' }

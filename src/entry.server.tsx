@@ -1,6 +1,5 @@
-import { RemixServer } from '@remix-run/react'
-import { EntryContext } from '@remix-run/react/entry'
 import { renderToString } from 'react-dom/server'
+import { RemixServer, EntryContext } from 'remix'
 
 const handleRequest = (
   request: Request,
