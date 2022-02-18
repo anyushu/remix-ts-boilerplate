@@ -46,10 +46,11 @@
     "dev": "cross-env NODE_ENV=development concurrently \"yarn:dev:*\"",
     "dev:remix": "remix dev",
     "dev:css": "tailwindcss -m -i ./src/styles/tailwind.css -o ./src/styles/app.css --watch",
-    "typecheck": "tsc --project tsconfig.json --pretty --noEmit",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}'",
     "lint": "eslint \"src/**/*.ts?(x)\" --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint --fix \"src/**/*.ts?(x)\" --ext .js,.jsx,.ts,.tsx",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   }
 }
